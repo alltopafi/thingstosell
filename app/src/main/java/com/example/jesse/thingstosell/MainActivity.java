@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //what we want the sign up button to do
-                //take to new screen s
+                //take to new screen
 
             }
         });
