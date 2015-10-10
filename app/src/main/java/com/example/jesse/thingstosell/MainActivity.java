@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final Button loginButton = (Button) findViewById(R.id.loginButton);
+        final Button signUpButton = (Button) findViewById(R.id.signUpButton);
+
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -25,6 +27,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        signUpButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //what we want the sign up button to do
+                //take to new screen s
+
+            }
+        });
     }
 
     @Override
